@@ -1,85 +1,123 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<meta charset="utf-8"/>
 	<head>
-		<title>public class Portfolio</title>
-		
-		<style>
-		body {
-			background-color: #2E2E2E;
-			color: #FFFFFF;
-			font-family: "Courier New", monospace;
-			font-size: 16px;
-			height: 100%;
-			width: 100%;
-			display: flex;
-			position: fixed;
-			align-items: center;
-			justify-content: center;
-		}
-		a:link {
-			color: #AEB404;
-		}
-		a:visited {
-			color: #AEB404;
-		}
-		a:hover {
-			color: #F3F781;
-			text-decoration: none;
-			background-color: #000000;
-		}
-		
-		#tab1 {
-			display:inline-block; 
-			margin-left: 40px; 
-		}
-		#tab2 {
-			display:inline-block; 
-			margin-left: 80px; 
-		}
-		</style>
-	</head>
-	
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700">
+		<link rel="stylesheet" href="css/fontawesome.min.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/main.css">
+
+		<title>Portfolio - Gustavo Andrade Guimarães</title></head>
 	<body>
-		<p>
-		<font color="#FF0080">public class</font> <font color="#2ECCFA"> Portfolio</font> : <font color="#2ECCFA">MonoBehaviour </font><br>
-		{<br>
-			<span id="tab1"><font color="#FF0080">public string</font> <font color="#6EE196">nome</font> =
-			<font color="#F3F781">"Gustavo Andrade Guimarães"</font></span>;<br>
-			<span id="tab1"><font color="#FF0080">public string</font> <font color="#6EE196">area</font> =
-			<font color="#F3F781">"Programador / Game Designer"</font></span>;<br>
-		<br>
-			<span id="tab1"><font color="#FF0080">void</font> <font color="#FF8000">Projetos</font> () {</span><br>
-				<span id="tab2"><font color="#FF0080">string</font> <font color="#6EE196">git</font> = 	
-				<font color="#F3F781">"<a href="http://www.github.com/gustaandrade" target="_blank">github.com/gustaandrade</a>"</font>;</span><br><br>
-				<span id="tab2"><font color="#FF0080">string</font> <font color="#6EE196">proj1</font> = 
-				<font color="#F3F781">"<a href="http://www.github.com/gustaandrade/DoNotStopMeNow" target="_blank">Do Not Stop Me Now! - Unity 2D / Android</a>"</font>;</span><br>
-				<span id="tab2"><font color="#FF0080">string</font> <font color="#6EE196">proj2</font> = 
-				<font color="#F3F781">"<a href="http://www.github.com/gustaandrade/MaoNaMassa" target="_blank">Mão na Massa - Unity 2D / Android</a>"</font>;</span><br>
-				<span id="tab2"><font color="#FF0080">string</font> <font color="#6EE196">proj3</font> = 
-				<font color="#F3F781">"<a href="http://www.github.com/gustaandrade/TheBasement" target="_blank">The Basement - Unity 3D / PC</a>"</font>;</span><br>
-				<span id="tab2"><font color="#FF0080">string</font> <font color="#6EE196">proj4</font> = 
-				<font color="#F3F781">"<a href="http://www.github.com/gustaandrade/TRASH" target="_blank">T.R.A.S.H. - Unity 3D / Arcade</a>"</font>;</span><br>
-			<span id="tab1">}</span><br>
-		<br>
-			<span id="tab1"><font color="#FF0080">void</font> <font color="#FF8000">Habilidades</font> () {</span><br>
-				<span id="tab2"><font color="#FF0080">string</font> <font color="#6EE196">engines</font> = 	
-				<font color="#F3F781">"Unity 2D, Unity 3D, Eclipse"</font>;</span><br>
-				<span id="tab2"><font color="#FF0080">string</font> <font color="#6EE196">linguagens</font> = 	
-				<font color="#F3F781">"C#, Javascript, C++, Java, HTML5, CSS3"</font>;</span><br>
-				<span id="tab2"><font color="#FF0080">string</font> <font color="#6EE196">softwares</font> = 	
-				<font color="#F3F781">"Office, Illustrator, Photoshop, Trello, GitHub, Unity Collab"</font>;</span><br>
-			<span id="tab1">}</span><br>
-		<br>
-			<span id="tab1"><font color="#FF0080">void</font> <font color="#FF8000">Contato</font> () {</span><br>
-			  <span id="tab2"><font color="#FF0080">string</font> <font color="#6EE196">email</font> = 
-			  <font color="#F3F781">"<a href="mailto:gustavo.gustaandrade@gmail.com">gustavo.gustaandrade@gmail.com</a>"</font>;</span><br>
-			  <span id="tab2"><font color="#FF0080">string</font> <font color="#6EE196">facebook</font> = 
-			  <font color="#F3F781">"<a href="http://www.facebook.com/gustaandrade" target="_blank">facebook.com/gustaandrade</a>"</font>;</span><br>
-			  <span id="tab2"><font color="#FF0080">string</font> <font color="#6EE196">instagram</font> = 
-			  <font color="#F3F781">"<a href="http://www.instagram.com/gustaandradeg" target="_blank">instagram.com/gustaandradeg</a>"</font>;</span><br>
-			<span id="tab1">}</span><br>
-		}
-		</p>
+		<div class="container-fluid">
+			
+			<div class="row menu-area">
+				<div class="icon-column">
+					<i class="fab fa-github project-icon"></i>
+				</div>
+				<div class="col-sm-11">
+					<p class="title">gustaandrade.github.io</p>
+				</div>
+			</div>
+
+			<div class="row">
+
+				<div class="col-sm-9">
+
+					<ul class="nav nav-tabs">
+						<li class="nav-item">
+							<a class="nav-link active" href="#">index.html</a>
+						</li>
+					</ul>
+					
+					<div class="main-area">
+						<div>public class Portfolio : MonoBehaviour</div>
+						<div>{</div>
+						
+						<div class="tab1">public string name = "Gustavo Andrade Guimarães";</div>
+						<div class="tab1">public string career = "Programador";</div>
+						<div class="tab1">&nbsp;</div>
+
+						<div class="tab1">public void Formacao_Academica () {</div>
+						<div class="tab2">var graduation = "Design de Games: Universidade Anhembi Morumbi – 2014 a 2019";</div>
+						<div class="tab2">var technician1 = "Programação de Jogos Digitais: Faculdade de Informática e Administração Paulista (FIAP) – 2014 a 2015";</div>
+						<div class="tab2">var technician2 = "Informática Gerencial: Colégio e Faculdade Kennedy – 2010 a 2011";</div>
+						<div class="tab1">}</div>
+						<div class="tab1">&nbsp;</div>
+						
+						<div class="tab1">public void Experiencias_Profissionais () {</div>
+						<div class="tab2">var experience1 = "Fofuuu Soluções para Saúde e Educação Ltda. – julho 2017 a fevereiro 2019";</div>
+						<div class="tab2">var experience2 = "Associação São Vicente de Paulo (Hospital Margarida) – abril 2013 a março 2014";</div>
+						<div class="tab2">var experience3 = "Micro House – dezembro 2007 a maio 2009 e Inforplay Informática – outubro 2011 a março 2013";</div>
+						<div class="tab1">}</div>
+						<div class="tab1">&nbsp;</div>
+						
+						<div class="tab1">public void Projetos () {</div>
+						<div class="tab2">var project1 = "Fofuuu – Para Fonoaudiólogos";</div>
+						<div class="tab2">var project2 = "Fofuuu – Para Pais";</div>
+						<div class="tab2">var project3 = "Vitral";</div>
+						<div class="tab2">var project4 = "SideStory";</div>
+						<div class="tab1">}</div>
+						<div class="tab1">&nbsp;</div>
+						
+						<div class="tab1">public void Principais_Habilidades () {</div>
+						<div class="tab2">var skill1 = "Unity 2D/3D";</div>
+						<div class="tab2">var skill2 = "C#";</div>
+						<div class="tab2">var skill3 = "HTML5, CSS3, Javascript e JQuery";</div>
+						<div class="tab2">var skill4 = "Office e Illustrator/Photoshop";</div>
+						<div class="tab2">var skill5 = "Git e Trello";</div>
+						<div class="tab2">var skill6 = "Inglês";</div>
+						<div class="tab1">}</div>
+
+						<div>}</div>
+					</div>
+
+				</div>
+
+				<div class="col-sm-3 side-area">
+					<!--
+					<div> 
+						<p>public class Portfolio : MonoBehaviour</p>
+						<p>{</p>
+						
+						<p class="tab1">public string name = "Gustavo Andrade Guimarães";</p>
+						<p class="tab1">public string career = "Programador";</p>
+						<p class="tab1">&nbsp;</p>
+						
+						<p class="tab1">public string name = "Gustavo Andrade Guimarães";</p>
+						<p class="tab1">public string career = "Programador";</p>
+						<p class="tab1">&nbsp;</p>
+						
+						<p class="tab1">public string name = "Gustavo Andrade Guimarães";</p>
+						<p class="tab1">public string career = "Programador";</p>
+						<p class="tab1">&nbsp;</p>
+
+						<p>}</p>
+					</div>
+					-->
+					<div class="row">
+						<div class="col-sm-3">
+							<a href="https://github.com/gustaandrade"><i class="fab fa-github social-icon"></i></a>
+						</div>
+						<div class="col-sm-3">
+							<a href="https://www.linkedin.com/in/gustavo-andrade-guimar%C3%A3es-a14abb17b/"><i class="fab fa-linkedin-in social-icon"></i></a>
+						</div>
+						<div class="col-sm-3">
+							<a href="https://instagram.com/gustaandradeg"><i class="fab fa-instagram social-icon"></i></a>
+						</div>
+						<div class="col-sm-3">
+							<a href="mailto:gustavo.gustaandrade@gmail.com"><i class="far fa-envelope social-icon"></i></a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/fontawesome.min.js"></script>
+		<script src="js/main.js"></script>
 	</body>
 </html>
