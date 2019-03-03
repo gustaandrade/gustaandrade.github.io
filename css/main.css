@@ -3,6 +3,7 @@
 	font-family: 'Inconsolata', monospace;
 	color: #DCDCDC;
 	line-height: 1;
+	padding-right: 15px;
 }
 
 .title {
@@ -101,6 +102,18 @@ a {
 	color: #DCDCDC;
 }
 
+.blue-text {
+	color: #2B91AF;
+}
+
+.green-text {
+	color: #4EC9B0;
+}
+
+.orange-text {
+	color: #F5A767;
+}
+
 .red-dot {
 	background-color: #a52a2a;
 	border: 1px solid white;
@@ -124,10 +137,13 @@ a {
 }
 
 .red-link {
-	color: #DCDCDC;
 	background-color: #a52a2a;
 	text-decoration: none;
 	cursor: pointer;
+}
+
+.red-link > span {
+	color: #DCDCDC;
 }
 
 .yellow-link {
@@ -137,3 +153,6 @@ a {
 	cursor: pointer;
 }
 
+.yellow-link > span {
+	color: #1F1F1F;
+}
