@@ -35,6 +35,12 @@
 	font-size: 14px;
 }
 
+@media (min-width: 576px) {
+	.col-sm-11 {
+		max-width: 100%;
+	}
+}
+
 .code-area > div {
 	margin: 3.5px 0;
 }
