@@ -34,7 +34,7 @@
 	font-size: 14px;
 }
 
-.main-area > div {
+.code-area > div {
 	margin: 3.5px 0;
 }
 
@@ -58,6 +58,17 @@
 .nav-tabs .nav-link {
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
+	border: 0;
+	margin-bottom: 1px;
+}
+
+.nav-item {
+	margin: 0 3px;
+}
+
+.nav-link-hold {
+	font-size: 14px;
+	background-color: #3F3F46;
 }
 
 .tab1 {
@@ -71,3 +82,58 @@
 .social-icon {
 	font-size: 4vw;
 }
+
+.information-area {
+	height: 85%;
+}
+
+.social-area {
+	height: 15%; 
+} 
+
+.social-area > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a {
+	color: #DCDCDC;
+}
+
+.red-dot {
+	background-color: #a52a2a;
+	border: 1px solid white;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	position: absolute;
+	left: -10px;
+	margin-top: 0 !important; 
+}
+
+.yellow-dot {
+	background-color: #EFF284;
+	border: 1px solid white;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	position: absolute;
+	left: -10px;
+	margin-top: 0 !important; 
+}
+
+.red-link {
+	color: #DCDCDC;
+	background-color: #a52a2a;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.yellow-link {
+	color: #1F1F1F;
+	background-color: #EFF284;
+	text-decoration: none;
+	cursor: pointer;
+}
+
