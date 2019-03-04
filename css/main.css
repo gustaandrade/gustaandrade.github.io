@@ -166,3 +166,14 @@ a {
 .yellow-link > span {
 	color: #1F1F1F;
 }
+
+.information-area > div {
+	text-align: justify;
+	padding: 0 1rem;
+}
+
+.photo {
+	display: block;
+	margin: 1rem auto;
+	width: 50%;
+ }
