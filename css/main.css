@@ -177,3 +177,7 @@ a {
 	margin: 1rem auto;
 	width: 50%;
  }
+
+ .information-area > div:not(:first-child) {
+	 display: none;
+ }
