@@ -29,7 +29,7 @@ $(".tab2").click(function() {
     $("." + className).fadeIn();
 });
 
-$("span").click(function() {
+$(".tab2 > span").click(function() {
     var className = $(this).parent().attr('id');
 
     $(".information-area").children().hide();
