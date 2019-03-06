@@ -22,12 +22,16 @@ $(".tab2").click(function() {
     div.css("top", $(this).position().top + 7);
 });
 
-$("#name").click(function () {
+$(".tab2").click(function() {
+    var className = $(this).attr('id');
+
     $(".information-area").children().hide();
-    $(".name").fadeIn();
+    $("." + className).fadeIn();
 });
 
-$("#career").click(function () {
+$("span").click(function() {
+    var className = $(this).parent().attr('id');
+
     $(".information-area").children().hide();
-    $(".career").fadeIn();
+    $("." + className).fadeIn();
 });
